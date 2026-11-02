@@ -1,4 +1,4 @@
-# atlasyield-club
+# AtlasYield
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-atlasyield-club is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://atlasyield.club/
+AtlasYield rates DeFi vaults on 16 factors, shows who controls each one, and tests every day whether money can actually come back out. Free and public for people, apps and AI agents, with every score published before the outcome is known. Execution for agents is next.
+
+**Areas:** DeFi · Yield · Risk · Analytics · On-chain
+
+## AtlasYield on APIs.io
+
+Everything profiled for AtlasYield is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/atlasyield-club/](https://apis.io/providers/atlasyield-club/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [AtlasYield Basket API](https://apis.io/apis/atlasyield-club/atlasyield-club-basket-api/) — The Basket API from AtlasYield — 1 operation(s) for basket.
+- [AtlasYield Catalog API](https://apis.io/apis/atlasyield-club/atlasyield-club-catalog-api/) — The Catalog API from AtlasYield — 1 operation(s) for catalog.
+- [AtlasYield Gas API](https://apis.io/apis/atlasyield-club/atlasyield-club-gas-api/) — The Gas API from AtlasYield — 1 operation(s) for gas.
+- [AtlasYield Portfolio API](https://apis.io/apis/atlasyield-club/atlasyield-club-portfolio-api/) — The Portfolio API from AtlasYield — 1 operation(s) for portfolio.
+- [AtlasYield Scores API](https://apis.io/apis/atlasyield-club/atlasyield-club-scores-api/) — The Scores API from AtlasYield — 1 operation(s) for scores.
+- [AtlasYield Vaults API](https://apis.io/apis/atlasyield-club/atlasyield-club-vaults-api/) — The Vaults API from AtlasYield — 3 operation(s) for vaults.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Atlasyield Club Agentic Access](https://apis.io/agentic-access/atlasyield-club/atlasyield-club-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CompactScore](https://apis.io/schemas/atlasyield-club/atlasyield-club-compact-score/)
+- [PortfolioSlice](https://apis.io/schemas/atlasyield-club/atlasyield-club-portfolio-slice/)
+- [Score](https://apis.io/schemas/atlasyield-club/atlasyield-club-score/)
+- [VaultFactors](https://apis.io/schemas/atlasyield-club/atlasyield-club-vault-factors/)
+- [VaultMetrics](https://apis.io/schemas/atlasyield-club/atlasyield-club-vault-metrics/)
+- [VaultRoute](https://apis.io/schemas/atlasyield-club/atlasyield-club-vault-route/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Atlasyield Club Context](https://apis.io/jsonld/atlasyield-club/atlasyield-club-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Atlasyield Club Openapi Overlay](https://apis.io/overlays/atlasyield-club/atlasyield-club-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AtlasYield API Rules](https://apis.io/rules/atlasyield-club/atlasyield-club-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Atlasyield Club Authentication](https://apis.io/security/atlasyield-club/atlasyield-club-authentication/)
+- [Atlasyield Club Domain Security](https://apis.io/security/atlasyield-club/atlasyield-club-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Atlasyield Club Scopes](https://apis.io/scopes/atlasyield-club/atlasyield-club-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Atlasyield Club Rate Limits](https://apis.io/rate-limits/atlasyield-club/atlasyield-club-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://atlasyield.club/)
+- [Documentation](https://docs.atlasyield.club/)
+- [API reference](https://docs.atlasyield.club/api-reference/introduction)
+- [Support](https://docs.atlasyield.club/partner-access)
+- [Trust centre](https://atlasyield.club/trust)
+
+## API Evangelist rating
+
+**Kin Score 49.5** — developing · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 60.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 57.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/atlasyield-club/](https://apis.io/providers/atlasyield-club/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AtlasYield: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/atlasyield-club/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
